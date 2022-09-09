@@ -8,25 +8,26 @@ html {
 .sun {
   width: 50px;
   height: 50px;
-  background-color: blue;
+  background:  radial-gradient(circle, rgba(232,10,8,1) 4%, rgba(219,67,10,1) 100%);
   transform: translate(20vw, 20vw); 
   align-items: center;
+  border-radius: 50%; 
 }
 
 .planet {
-  width: 20px;
-  height: 20px;
-  background-color: red;
-  box-shadow: 190px 190px 0.3ch rgb(79, 79, 78);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%; 
+  box-shadow: 190px 190px 0.0ch rgb(8,52,232);
   animation:  anin-squad 140s linear infinite;
 }
 
 .moon {
   width: 20px;
   height: 20px;
-  background-color: red;
   transform: translate(52.5vw, 44vw);
-  box-shadow: 10px 190px 0.3ch rgb(79, 79, 78);
+  box-shadow: 10px 190px 0.0ch rgb(232,111,8);
+  border-radius: 50%; 
   animation:  anin-squad 100s linear infinite;
 }
 
