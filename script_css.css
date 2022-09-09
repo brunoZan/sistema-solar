@@ -5,30 +5,19 @@ html {
   background-color: rgb(3, 23, 34);
 }
 
-main {
-  height: 46vw;
-}
-
-footer {
-  background-color: rgba(7, 245, 74, 100%);
-  width: 100vw;
-  padding: 10px 10px;  
-}
-
 .sun {
   width: 50px;
   height: 50px;
   background:  radial-gradient(circle, rgba(232,10,8,1) 4%, rgba(219,67,10,1) 100%);
-  transform: translate(20vw, 20vw); 
-  align-items: center;
+  transform: translate(30vw, 25vw); 
   border-radius: 50%; 
 }
 
 .planet {
-  width: 30px;
+  max-width: 30px;
   height: 30px;
   border-radius: 50%; 
-  box-shadow: 190px 190px 0.0ch rgb(8,52,232);
+  box-shadow: 10em 13em 0.0ch rgb(8,52,232);
   animation:  anin-squad 140s linear infinite;
 }
 
@@ -36,7 +25,7 @@ footer {
   width: 20px;
   height: 20px;
   transform: translate(52.5vw, 44vw);
-  box-shadow: 10px 190px 0.0ch rgb(232,111,8);
+  box-shadow: 10px 10em 0.0ch rgb(232,111,8);
   border-radius: 50%; 
   animation:  anin-squad 100s linear infinite;
 }
@@ -56,4 +45,23 @@ a {
 }
 a:hover {
   color: red;
+}
+
+@media(max-width: 29em) {
+  .planet {
+    max-width: 20px;
+    height: 20px;
+    box-shadow:5em 8em 0.0ch rgb(8,52,232);
+  }
+  .moon {
+    max-width: 15px;
+    height: 15px;
+    box-shadow: 10px 5em 0.0ch rgb(232,111,8);
+
+  }
+  .sun {
+    width: 40px;
+    height: 40px;
+    transform: translate(40vw, 40vw);
+  }
 }
