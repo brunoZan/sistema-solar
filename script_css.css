@@ -1,3 +1,6 @@
+* {
+  margin: 0;
+}
 html {
   background-color: rgb(3, 23, 34);
 }
@@ -35,4 +38,23 @@ html {
   to {
    transform:rotate(-10turn);
   }
+}
+
+main {
+  height: 46vw;
+
+}
+
+footer {
+  background-color: rgba(7, 245, 74, 100%);
+  width: 100vw;
+  padding: 10px 10px;
+  
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: red;
 }
