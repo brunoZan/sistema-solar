@@ -1,0 +1,38 @@
+html {
+  background-color: rgb(3, 23, 34);
+}
+
+.sun {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  transform: translate(20vw, 20vw); 
+  align-items: center;
+}
+
+.planet {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  box-shadow: 190px 190px 0.3ch rgb(79, 79, 78);
+  animation:  anin-squad 140s linear infinite;
+}
+
+.moon {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  transform: translate(52.5vw, 44vw);
+  box-shadow: 10px 190px 0.3ch rgb(79, 79, 78);
+  animation:  anin-squad 100s linear infinite;
+}
+
+
+@keyframes anin-squad {
+  from {
+    transform:rotate(10turn);
+  }
+  to {
+   transform:rotate(-10turn);
+  }
+}
