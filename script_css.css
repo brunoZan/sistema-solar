@@ -5,6 +5,16 @@ html {
   background-color: rgb(3, 23, 34);
 }
 
+main {
+  height: 46vw;
+}
+
+footer {
+  background-color: rgba(7, 245, 74, 100%);
+  width: 100vw;
+  padding: 10px 10px;  
+}
+
 .sun {
   width: 50px;
   height: 50px;
@@ -38,18 +48,6 @@ html {
   to {
    transform:rotate(-10turn);
   }
-}
-
-main {
-  height: 46vw;
-
-}
-
-footer {
-  background-color: rgba(7, 245, 74, 100%);
-  width: 100vw;
-  padding: 10px 10px;
-  
 }
 
 a {
