@@ -5,11 +5,36 @@ html {
   background-color: rgb(3, 23, 34);
 }
 
+.main {
+  background-color: rgb(11, 2, 52);
+  height: 90vh;
+  margin: 0vh auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.footer {
+  background-color: palevioletred;
+  margin: auto;
+  padding: 2vh 0vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main, .footer {
+  width: 90vw;
+}
+
 .sun {
   width: 50px;
   height: 50px;
-  background:  radial-gradient(circle, rgba(232,10,8,1) 4%, rgba(219,67,10,1) 100%);
-  transform: translate(30vw, 25vw); 
+  background:  
+    radial-gradient(circle, 
+    rgba(232,10,8,1) 4%, 
+    rgba(219,67,10,1) 100%);
   border-radius: 50%; 
 }
 
@@ -19,6 +44,7 @@ html {
   border-radius: 50%; 
   box-shadow: 10em 13em 0.0ch rgb(8,52,232);
   animation:  anin-squad 140s linear infinite;
+
 }
 
 .moon {
@@ -42,6 +68,7 @@ html {
 
 a {
   text-decoration: none;
+  color: black;
 }
 a:hover {
   color: red;
@@ -62,6 +89,5 @@ a:hover {
   .sun {
     width: 40px;
     height: 40px;
-    transform: translate(40vw, 40vw);
   }
 }
